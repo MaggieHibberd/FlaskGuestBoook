@@ -7,7 +7,8 @@ main = Blueprint('main', __name__)
 
 @main.route('/')
 def index():
-    return render_template('index.html')
+    comments = Comment.query.all()
+    return render_template('index.html', comments=comments)
 
 
 @main.route('/sign')

@@ -8,6 +8,4 @@
 * Set up your environment
 * In terminal a level up from GuestBook type: export FLASK_APP=GuestBook
 * To run: flask run (again type in terminal the same level as the previous command)
-
-
-
+* 
